@@ -62,6 +62,7 @@ public class Main {
             }
             catch(InputMismatchException e){
                 System.out.println("Input must be a number.");
+                input.nextLine();
                 continue;
             }
             
